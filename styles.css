@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Jakarta Sans;
+  src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: Jakarta Sans;
+  font-size: 16px;
+}
+
+.notification-number {
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+
+#btn-mark-read {
+  background-color: white;
+  border-style: none;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.notification-unread {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  background-color: hsl(211, 68%, 94%);
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.time-ago {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.notification-info {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.notif-with-photo {
+  display: flex;
+  flex-direction: row;
+}
+
+.notification-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.private-message {
+  background-color: hsl(210, 60%, 98%);
+  padding: 0.5rem;
+  border: solid 1px hsl(205, 33%, 90%);
+  border-radius: 5px;
+  margin: 0;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.photo-preview {
+  height: 40px;
+  width: 40px;
+}
+header {
+  display: inline-flex;
+  width: max-content;
+  margin-right: 2rem;
+}
+
+strong {
+  color: black;
+}
+
+.time-ago {
+  color: hsl(219, 12%, 42%);
+}
+
+h1 {
+  font-size: 24px;
+  margin-right: 0.5rem;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
